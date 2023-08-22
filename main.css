@@ -16,3 +16,18 @@
  a{
     all:unset
  }
+
+ .main{
+    height: 100vh;
+    width: 100ww;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .bcard{
+    width: 31.7rem;
+    margin: 1rem;
+ }
+ /* Header Styles */
