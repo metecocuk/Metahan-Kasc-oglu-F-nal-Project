@@ -44,7 +44,7 @@
 
  /* body styles */
  .bcard__body {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     background-color: saddlebrown;
     display: flex;
     flex-direction: column;
@@ -126,4 +126,25 @@
     font-size: 1.8rem;
  }
 
- 
+ .bcard__footer{
+   height: 6.5rem;
+   background-color: saddlebrown;
+   border-radius: 0px 0px 6px 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .bcard__footer-icon {
+   background-color: #918E98;
+   font-size: 2.7rem;
+   padding: 0.2em;
+   margin-right: 2.4rem;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ .bcard__footer-icon:last-of-type{
+   margin-right: 0;
+ }
+ @media (max-height:750px){
+   height: auto;
+ }
