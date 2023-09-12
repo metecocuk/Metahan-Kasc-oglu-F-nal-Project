@@ -14,7 +14,6 @@ html {
 }
 
 body {
-   background-color: #CEDEBD;
    font-family: 'Oswald', sans-serif;
 }
 
@@ -29,6 +28,23 @@ a {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   background: linear-gradient(-65deg, #FAF1E4, #CEDEBD, #9EB384, #435334);
+   animation: color 15s ease-in-out infinite;
+   background-size: 300% 300%;
+}
+
+@keyframes color {
+   0% {
+      background-position: 0 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0 50%;
+   }
 }
 
 .bcard {
