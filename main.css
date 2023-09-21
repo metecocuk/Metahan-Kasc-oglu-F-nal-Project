@@ -28,8 +28,8 @@ a {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: linear-gradient(-65deg, #FAF1E4, #CEDEBD, #9EB384, #435334);
-   animation: color 15s ease-in-out infinite;
+   background: linear-gradient(-135deg, #A06CD5, #E78F8E, #4ECDC4, #435334);
+   animation: color 10s ease-in-out infinite;
    background-size: 300% 300%;
 }
 
@@ -58,14 +58,13 @@ a {
    height: 31.7rem;
    border-radius: 10px 10px 0px 0px;
    object-fit: cover;
-   object-position: top right;
    display: block;
 }
 
 /* body styles */
 .bcard__body {
    border-radius: 0px 0px 0px 0px;
-   background-color: #435334;
+   background-color: #52489C;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -120,7 +119,7 @@ a {
 .bcard__btn--email {
    color: #FAF1E4;
    background-color: #FE0000;
-   transition: all 1s;
+   transition: all 0.75s;
 }
 
 .bcard__btn--email:hover {
@@ -131,7 +130,7 @@ a {
 .bcard__btn--linkedin {
    background-color: #5093e2;
    color: #FAF1E4;
-   transition: all 1s;
+   transition: all 0.75s;
 }
 
 .bcard__btn--linkedin:hover {
@@ -160,7 +159,7 @@ a {
 
 .bcard__footer {
    height: 6.5rem;
-   background-color: #9EB384;
+   background-color: #52489C;
    border-radius: 0px 0px 6px 6px;
    display: flex;
    justify-content: center;
@@ -168,18 +167,18 @@ a {
 }
 
 .bcard__footer-icon {
-   color: #5C5470;
-   background-color: #9EB384;
+   color: #EF9595;
+   background-color: #52489C;
    font-size: 2.7rem;
    padding: 0.2em;
    margin-right: 2.4rem;
    border-radius: 5px;
    cursor: pointer;
-   transition: all 1s;
+   transition: all 0.5s;
 }
 
 .bcard__footer-icon:hover {
-   color: #35155D;
+   color: #E2C799;
 
 }
 
