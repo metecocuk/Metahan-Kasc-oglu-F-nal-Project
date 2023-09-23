@@ -28,28 +28,15 @@ a {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: linear-gradient(-135deg, #A06CD5, #E78F8E, #4ECDC4, #435334);
-   animation: color 10s ease-in-out infinite;
-   background-size: 300% 300%;
-}
-
-@keyframes color {
-   0% {
-      background-position: 0 50%;
-   }
-
-   50% {
-      background-position: 100% 50%;
-   }
-
-   100% {
-      background-position: 0 50%;
-   }
+   background-image: url('./assets/Sunset1.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .bcard {
    width: 31.7rem;
    margin: 1rem;
+   opacity: 0.90;
 }
 
 /* Header Styles */
